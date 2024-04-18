@@ -1,5 +1,3 @@
-# Text_based_sentiment_analysis
-
 # Importing necessary libraries
 import streamlit as st
 import pandas as pd
