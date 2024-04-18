@@ -1,2 +1,17 @@
 # Text_based_sentiment_analysis
-This project talks about sentiment analysis, which is all about understanding the feelings behind written text. As more and more stuff gets posted online, it's important to know how people feel about things, like products or news. We're going to look at different ways computers can figure out these feelings, especially using fancy techniques like machine learning and deep learning. We'll also talk about the problems that come up, like when people are sarcastic or use language in different ways. We'll see how sentiment analysis is used in different areas, like marketing or social media, and what might happen next in this field. Overall, this project is about making sense of emotions in written words and how it can be helpful in lots of different situations. 
+
+# Importing necessary libraries
+import streamlit as st
+import pandas as pd
+import numpy as np
+import pickle
+from PIL import Image
+import re
+import string
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn import svm
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
